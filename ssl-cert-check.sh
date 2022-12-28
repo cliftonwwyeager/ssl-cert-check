@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DOMAINS="/home/cyeager/list.txt"
-RECIPIENT="cyeager@mesonet.org"
+DOMAINS="/path/to/list.txt"
+RECIPIENT="email@sender.com"
 DAYS="30"
 
 while read -r DOMAIN; do
