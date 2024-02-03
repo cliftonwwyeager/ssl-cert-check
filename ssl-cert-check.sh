@@ -16,5 +16,3 @@ while read -r DOMAIN; do
 		|| mail -s "SSL Certs for $DOMAIN--Okay" $RECIPIENT
 	fi;
 done<"${DOMAINS}"
-mail -s "SSL certificates expiring within 30 days" $RECIPIENT < domainslist
-mail -s "SSL Certs--Okay" $RECIPIENT
